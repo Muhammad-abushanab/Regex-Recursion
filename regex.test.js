@@ -15,7 +15,7 @@ function capitalA(s) {
 which end with io (example@example.io) */
 
 function ioEmail(email) {
-    const rgx = /^[\w -]+@([\w -]+\.io$)/g;
+    const rgx = /^[\w]+@([\w]+\.io$)/g;
     return rgx.test(email);
 }
 
